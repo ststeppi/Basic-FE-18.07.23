@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+h2{
+    text-align: center;
+    color: #686de0;
+}
+
+.hobby{
+    border: 10px solid #f6e58d;
+    background-color: #95afc0;
+    padding: 30px;
+    margin: 30px;
+}
+.linkstyle{
+    font-style: normal;
+    font-size: 25px;
+    color: #686de0;
+}
+.work{
+    border: 10px solid #95afc0;
+    background-color: #f6e58d;
+    padding: 30px;
+    margin: 30px; 
+}
+.family{
+    border: 10px solid #f6e58d;
+    background-color: #95afc0;
+    padding: 30px;
+    margin: 30px;
+}  
+.hobbyimg{
+    width: 490px;
+    height: 300px;
+}
+.facebookimg{
+    width: 20px;
+    height: 20px;
+    
+    }
+   .footer{
+    text-align: center;
+   }
+    
