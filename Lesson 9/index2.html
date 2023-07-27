@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac 1</title>
+    <link rel="stylesheet" href="style/style2.css">
+</head>
+<body>
+    <!-- форму делим на блоки -->
+    <div class="main">
+        <form action="#">
+            <div class="header">
+                <h1>Tour Booking Form</h1>
+            </div>
+            <div class="name">
+                <label for="name">Name</label>
+                <div class="name_input">
+                    <!-- атрибут name необязательный, id нужен для связи с label -->
+                    <input type="text" name="fname" id="name" placeholder="First Name">
+                    <input type="text" name="lname" id="name" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+             
+            <div class="email_input">
+                <input type="email" id="email" placeholder="name@gmail.com">
+            </div>
+            
+            <div class="phone">
+                <label for="phone">Phone</label>
+            </div>    
+            <div class="phone_input">
+            <input type="tel" name="phone" id="phone" placeholder="###-###-####">
+            </div>
+            <div class="quest1">
+                <label for="q1">When are you planning to vizit?</label>
+            </div>  
+            <div class="date_input">  
+                <input type="date" id="q1" name="vizitdate">
+            </div>
+            <div class="quest2">
+                <label for="q2">How many people are in your group?</label>
+            </div>  
+            <div class="number_input">  
+                <input type="number" id="q2">
+            </div>
+            <div class="quest3">
+                <label for="q3">Which tour are you most interested in?</label>
+            </div>  
+            <div class="tours_input">  
+                <select name="tours" id="q3">
+                    <option value="">Please select</option>
+                    <option value="usa">USA</option>
+                    <option value="eu">Europe</option>
+                    <option value="uae">UAE</option>
+                    <option value="mald">Maldives</option>
+                </select>
+            </div>
+            <div class="quest4">
+                <label for="q4">What is the best way to contact you?</label>
+                <!-- каждый chekbox с текстом делим на блоки -->
+                <div class="chk1">
+                    <input type="checkbox" id="chk1">
+                    <label for="chk1">Phone</label>
+                </div>
+                <div class="chk2">
+                    <input type="checkbox" id="chk2">
+                    <label for="chk2">Email</label>
+                </div>
+                <div class="chk3">
+                    <input type="checkbox" id="chk3">
+                    <label for="chk3">Either</label>
+                </div>
+            </div>
+            <div class="quest5">
+                <label for="q5">If phone, when is the best time of day for a call-back?</label>
+                <div class="radio1">
+                    <!-- значения атрибута name всех radio обязательно должны быть одинаковые -->
+                    <input type="radio" name="time" id="radio1">
+                    <label for="radio1">8 - 11 AM</label>
+                </div>
+                <div class="radio2">
+                    <input type="radio" name="time" id="radio2">
+                    <label for="radio2">12 - 4 PM</label>
+                </div>
+                <div class="radio3">
+                    <input type="radio" name="time" id="radio3">
+                    <label for="radio3">6 - 10 PM</label>
+                </div>
+            </div>
+            <div class="quest6">
+                <label for="q6">Anything else we should know?</label>
+            </div>  
+            <div class="textarea_input">   
+                <textarea name="textarea" id="q4"></textarea>
+            </div>
+            <div class="button">
+                <!-- выбрали тег button типа submit вместо input type submit, так как он блочный и текст можно изменить -->
+                <button type="submit" class="btn">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
