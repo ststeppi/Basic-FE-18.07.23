@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background-color: aquamarine;
+}
+
+.item1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: azure;
+  top: 70px;
+  left: 70px;
+}
+
+.item2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background-color: azure;
+  bottom: 70px;
+  right: 70px;
+}
