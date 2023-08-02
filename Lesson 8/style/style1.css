@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: block;
+}
+a {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.link1 {
+  text-decoration: none;
+}
+.link1 :hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.link2 {
+  color: red;
+}
+.link2 :hover {
+  color: blue;
+  text-decoration: line-through;
+}
+.link3 {
+  color: black;
+  text-decoration: none;
+}
+.link3 :hover {
+  color: red;
+  text-decoration: overline;
+}
